@@ -64,26 +64,35 @@ module coreTest;
 
     cv32e40p_core dut(.*);
 
+    localparam CLKPERIOD = 10000;
+    localparam CLKDELAY = CLKPERIOD/2;
+
     initial begin
         //output logic [31:0] data_wdata_o,
         $monitor($time," - instr_addr_o = %b | data_addr_o = %b | data_wdata_o = %b", instr_addr_o, data_addr_o, data_wdata_o);
+        clk_i = 1'b1;
+        rst_ni = 1'b1;
 
         // Instrução: addi x10, x10, 1
+        #(CLKPERIOD)
         instr_rdata_i = 32'b00000000_00010101_00000101_00010011;
         data_rdata_i = 32'b0;
-
-        //output logic [31:0] instr_addr_o,
-        //output logic [31:0] data_addr_o,
-        //output logic [31:0] data_wdata_o,
-
+        #(CLKPERIOD)
+        #(CLKPERIOD)
+        rst_ni = 1'b0;
     end
+
+    always #(CLKDELAY) clk_i = ~clk_i;
+    
 endmodule: coreTest
+
+
 
 //Little endian
 
 //00 15 05 13 00 00 00 00 00 00 00 00 00 00 00 00
 //00000000 00010101 00000101 00010011 instrução
-//00000000 00000000 00000000 00000000 dados?
+//00000000 00000000 00000000 00000000 dados (?)
 
 //00000000 00000000 00000000 00000000 memória
 //00000000 00000000 00000000 00000000
