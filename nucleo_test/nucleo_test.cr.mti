@@ -1,21 +1,4 @@
-C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_ff_one.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_ff_one.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cv32e40p_ff_one
-
-Top level modules:
-	cv32e40p_ff_one
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/assertions.svh {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/assertions.svh
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fall_through_register.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fall_through_register.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fall_through_register
-
-Top level modules:
-	fall_through_register
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_opgroup_multifmt_slice.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_opgroup_multifmt_slice.sv
+C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_opgroup_multifmt_slice.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_opgroup_multifmt_slice.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module fpnew_opgroup_multifmt_slice
 -- Importing package fpnew_pkg
@@ -28,6 +11,23 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	fpnew_opgroup_multifmt_slice
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fall_through_register.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fall_through_register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fall_through_register
+
+Top level modules:
+	fall_through_register
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/assertions.svh {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/assertions.svh
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_ff_one.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_ff_one.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cv32e40p_ff_one
+
+Top level modules:
+	cv32e40p_ff_one
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_cast_multi.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_cast_multi.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -54,13 +54,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	fpnew_cast_multi
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_rounding.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_rounding.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/sync.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/sync.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fpnew_rounding
--- Importing package fpnew_pkg
+-- Compiling module sync
 
 Top level modules:
-	fpnew_rounding
+	sync
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/nrbd_nrsc_mvp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/nrbd_nrsc_mvp.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -71,12 +70,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	nrbd_nrsc_mvp
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/sync.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/sync.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_rounding.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_rounding.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module sync
+-- Compiling module fpnew_rounding
+-- Importing package fpnew_pkg
 
 Top level modules:
-	sync
+	fpnew_rounding
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/addr_decode.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/addr_decode.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -160,6 +160,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	fpnew_top
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_sim_clock_gating.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_sim_clock_gating.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cv32e40p_sim_clock_gating
+
+Top level modules:
+	cv32e40p_sim_clock_gating
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/lfsr_16bit.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/lfsr_16bit.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -500,6 +507,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	stream_join
 
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/rstgen_bypass.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/rstgen_bypass.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rstgen_bypass
+
+Top level modules:
+	rstgen_bypass
+
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_to_mem.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_to_mem.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module stream_to_mem
@@ -519,13 +533,6 @@ These features are only supported in Questasim.
 Top level modules:
 	stream_to_mem
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/rstgen_bypass.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/rstgen_bypass.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module rstgen_bypass
-
-Top level modules:
-	rstgen_bypass
-
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_register_file_latch.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_register_file_latch.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module cv32e40p_register_file
@@ -537,19 +544,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	cv32e40p_register_file
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_register_file_ff.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_register_file_ff.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cv32e40p_register_file
-
-Top level modules:
-	cv32e40p_register_file
-
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/lfsr_8bit.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/lfsr_8bit.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module lfsr_8bit
 
 Top level modules:
 	lfsr_8bit
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_register_file_ff.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_register_file_ff.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cv32e40p_register_file
+
+Top level modules:
+	cv32e40p_register_file
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_sleep_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_sleep_unit.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -586,6 +593,36 @@ These features are only supported in Questasim.
 Top level modules:
 	rr_arb_tree
 
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/sync_wedge.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/sync_wedge.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sync_wedge
+
+Top level modules:
+	sync_wedge
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/mv_filter.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/mv_filter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mv_filter
+
+Top level modules:
+	mv_filter
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_compressed_decoder.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_compressed_decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cv32e40p_compressed_decoder
+-- Importing package cv32e40p_pkg
+
+Top level modules:
+	cv32e40p_compressed_decoder
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_if_stage.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_if_stage.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cv32e40p_if_stage
+-- Importing package cv32e40p_pkg
+
+Top level modules:
+	cv32e40p_if_stage
+
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_obi_interface.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_obi_interface.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module cv32e40p_obi_interface
@@ -607,36 +644,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	cv32e40p_obi_interface
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_if_stage.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_if_stage.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cv32e40p_if_stage
--- Importing package cv32e40p_pkg
-
-Top level modules:
-	cv32e40p_if_stage
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_compressed_decoder.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_compressed_decoder.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cv32e40p_compressed_decoder
--- Importing package cv32e40p_pkg
-
-Top level modules:
-	cv32e40p_compressed_decoder
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/mv_filter.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/mv_filter.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module mv_filter
-
-Top level modules:
-	mv_filter
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/sync_wedge.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/sync_wedge.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module sync_wedge
-
-Top level modules:
-	sync_wedge
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/delta_counter.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/delta_counter.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -664,6 +671,37 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	edge_propagator
 
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/AluSubTest.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/AluSubTest.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AluSubTest
+-- Importing package cv32e40p_pkg
+
+Top level modules:
+	AluSubTest
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling interface STREAM_DV
+** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv(45): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv(46): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv(16): (vlog-2186) SystemVerilog testbench feature
+(randomization, coverage or assertion) detected in the design.
+These features are only supported in Questasim.
+
+Top level modules:
+	--none--
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/ecc_pkg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/ecc_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package ecc_pkg
+
+Top level modules:
+	--none--
+
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_classifier.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_classifier.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module fpnew_classifier
@@ -688,37 +726,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	fpnew_classifier
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/ecc_pkg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/ecc_pkg.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling package ecc_pkg
-
-Top level modules:
-	--none--
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling interface STREAM_DV
-** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv(45): (vlog-2186) SystemVerilog testbench feature
-(randomization, coverage or assertion) detected in the design.
-These features are only supported in Questasim.
-** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv(46): (vlog-2186) SystemVerilog testbench feature
-(randomization, coverage or assertion) detected in the design.
-These features are only supported in Questasim.
-** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_intf.sv(16): (vlog-2186) SystemVerilog testbench feature
-(randomization, coverage or assertion) detected in the design.
-These features are only supported in Questasim.
-
-Top level modules:
-	--none--
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/AluSubTest.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/AluSubTest.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module AluSubTest
--- Importing package cv32e40p_pkg
-
-Top level modules:
-	AluSubTest
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_divsqrt_multi.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_divsqrt_multi.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -749,13 +756,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	cv32e40p_fifo
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_apu_disp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_apu_disp.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cv32e40p_apu_disp
-
-Top level modules:
-	cv32e40p_apu_disp
-
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cb_filter_pkg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cb_filter_pkg.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling package cb_filter_pkg
@@ -763,15 +763,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	--none--
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_fp_wrapper.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_fp_wrapper.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_apu_disp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_apu_disp.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cv32e40p_fp_wrapper
--- Importing package cv32e40p_apu_core_pkg
--- Importing package cv32e40p_pkg
--- Importing package fpnew_pkg
+-- Compiling module cv32e40p_apu_disp
 
 Top level modules:
-	cv32e40p_fp_wrapper
+	cv32e40p_apu_disp
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/clk_div.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/clk_div.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_div
+
+Top level modules:
+	clk_div
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_decoder.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_decoder.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -783,12 +787,15 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	cv32e40p_decoder
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/clk_div.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/clk_div.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_fp_wrapper.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_fp_wrapper.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module clk_div
+-- Compiling module cv32e40p_fp_wrapper
+-- Importing package cv32e40p_apu_core_pkg
+-- Importing package cv32e40p_pkg
+-- Importing package fpnew_pkg
 
 Top level modules:
-	clk_div
+	cv32e40p_fp_wrapper
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/AluAndTest.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/AluAndTest.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -805,6 +812,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	stream_demux
 
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/unread.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/unread.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module unread
+
+Top level modules:
+	unread
+
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cdc_fifo_gray.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cdc_fifo_gray.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module cdc_fifo_gray
@@ -814,19 +828,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	cdc_fifo_gray
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/unread.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/unread.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/exp_backoff.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/exp_backoff.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module unread
+-- Compiling module exp_backoff
 
 Top level modules:
-	unread
+	exp_backoff
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_prefetch_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_prefetch_buffer.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/counter.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/counter.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cv32e40p_prefetch_buffer
+-- Compiling module counter
 
 Top level modules:
-	cv32e40p_prefetch_buffer
+	counter
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_mult.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_mult.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -836,19 +850,28 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	cv32e40p_mult
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/counter.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/counter.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_prefetch_buffer.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_prefetch_buffer.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module counter
+-- Compiling module cv32e40p_prefetch_buffer
 
 Top level modules:
-	counter
+	cv32e40p_prefetch_buffer
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/exp_backoff.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/exp_backoff.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_load_store_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_load_store_unit.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module exp_backoff
+-- Compiling module cv32e40p_load_store_unit
 
 Top level modules:
-	exp_backoff
+	cv32e40p_load_store_unit
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/norm_div_sqrt_mvp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/norm_div_sqrt_mvp.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package norm_div_sqrt_mvp_sv_unit
+-- Importing package defs_div_sqrt_mvp
+-- Compiling module norm_div_sqrt_mvp
+
+Top level modules:
+	norm_div_sqrt_mvp
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/id_queue.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/id_queue.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -861,21 +884,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	id_queue
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/norm_div_sqrt_mvp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/norm_div_sqrt_mvp.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/plru_tree.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/plru_tree.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling package norm_div_sqrt_mvp_sv_unit
--- Importing package defs_div_sqrt_mvp
--- Compiling module norm_div_sqrt_mvp
+-- Compiling module plru_tree
 
 Top level modules:
-	norm_div_sqrt_mvp
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_load_store_unit.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_load_store_unit.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module cv32e40p_load_store_unit
-
-Top level modules:
-	cv32e40p_load_store_unit
+	plru_tree
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_alu_div.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_alu_div.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -884,19 +898,28 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	cv32e40p_alu_div
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/plru_tree.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/plru_tree.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/sub_per_hash.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/sub_per_hash.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module plru_tree
+-- Compiling module sub_per_hash
 
 Top level modules:
-	plru_tree
+	sub_per_hash
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/simulacao32.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/simulacao32.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/shift_reg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/shift_reg.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module simulacao32
+-- Compiling module shift_reg
 
 Top level modules:
-	simulacao32
+	shift_reg
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/isochronous_spill_register.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/isochronous_spill_register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module isochronous_spill_register
+** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/isochronous_spill_register.sv(78): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/isochronous_spill_register.sv(79): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+	isochronous_spill_register
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/control_mvp.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/control_mvp.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -940,35 +963,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	control_mvp
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/isochronous_spill_register.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/isochronous_spill_register.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/simulacao32.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/simulacao32.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module isochronous_spill_register
-** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/isochronous_spill_register.sv(78): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-** Warning: C:/Users/natha/OneDrive/Documentos/nucleo_test/isochronous_spill_register.sv(79): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+-- Compiling module simulacao32
 
 Top level modules:
-	isochronous_spill_register
+	simulacao32
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/shift_reg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/shift_reg.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_arbiter.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_arbiter.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module shift_reg
+-- Compiling module stream_arbiter
 
 Top level modules:
-	shift_reg
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/sub_per_hash.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/sub_per_hash.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module sub_per_hash
-
-Top level modules:
-	sub_per_hash
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/iteration_div_sqrt_mvp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/iteration_div_sqrt_mvp.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module iteration_div_sqrt_mvp
-
-Top level modules:
-	iteration_div_sqrt_mvp
+	stream_arbiter
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/edge_propagator_rx.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/edge_propagator_rx.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -977,12 +984,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	edge_propagator_rx
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_arbiter.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_arbiter.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/iteration_div_sqrt_mvp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/iteration_div_sqrt_mvp.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module stream_arbiter
+-- Compiling module iteration_div_sqrt_mvp
 
 Top level modules:
-	stream_arbiter
+	iteration_div_sqrt_mvp
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_mux.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_mux.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module stream_mux
+
+Top level modules:
+	stream_mux
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_fork.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_fork.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -1005,12 +1019,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	stream_fork
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_mux.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_mux.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/edge_propagator_tx.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/edge_propagator_tx.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module stream_mux
+-- Compiling module edge_propagator_tx
 
 Top level modules:
-	stream_mux
+	edge_propagator_tx
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/div_sqrt_mvp_wrapper.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/div_sqrt_mvp_wrapper.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -1021,20 +1035,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	div_sqrt_mvp_wrapper
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/edge_propagator_tx.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/edge_propagator_tx.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module edge_propagator_tx
-
-Top level modules:
-	edge_propagator_tx
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_pkg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_pkg.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling package cv32e40p_pkg
-
-Top level modules:
-	--none--
-
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/popcount.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/popcount.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module popcount
@@ -1042,13 +1042,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	--none--
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_noncomp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_noncomp.sv
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_pkg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_pkg.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fpnew_noncomp
--- Importing package fpnew_pkg
+-- Compiling package cv32e40p_pkg
 
 Top level modules:
-	fpnew_noncomp
+	--none--
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_fork_dynamic.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/stream_fork_dynamic.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -1061,6 +1060,21 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	stream_fork_dynamic
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_noncomp.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_noncomp.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fpnew_noncomp
+-- Importing package fpnew_pkg
+
+Top level modules:
+	fpnew_noncomp
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/rstgen.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/rstgen.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rstgen
+
+Top level modules:
+	rstgen
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_cs_registers.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_cs_registers.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -1440,13 +1454,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	cv32e40p_cs_registers
 
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/rstgen.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/rstgen.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module rstgen
-
-Top level modules:
-	rstgen
-
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_int_controller.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_int_controller.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module cv32e40p_int_controller
@@ -1507,22 +1514,15 @@ These features are only supported in Questasim.
 Top level modules:
 	lfsr
 
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/registers.svh {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/registers.svh
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_aligner.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/cv32e40p_aligner.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module cv32e40p_aligner
 
 Top level modules:
 	cv32e40p_aligner
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/registers.svh {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/registers.svh
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-
-} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_pkg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_pkg.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling package fpnew_pkg
-
-Top level modules:
-	--none--
 
 } {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/lzc.sv {2 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/lzc.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -1534,5 +1534,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	lzc
+
+} {} {}} C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_pkg.sv {1 {vlog -work work -sv -stats=none C:/Users/natha/OneDrive/Documentos/nucleo_test/fpnew_pkg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling package fpnew_pkg
+
+Top level modules:
+	--none--
 
 } {} {}}
