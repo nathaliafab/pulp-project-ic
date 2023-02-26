@@ -74,11 +74,11 @@ module coreTest;
 
     initial begin
         //enable_i = 1'b1;
-        pulp_clock_en_i = 1'b0;    // PULP clock enable (only used if PULP_CLUSTER = 1)
+        pulp_clock_en_i = 1'b1;    // PULP clock enable (only used if PULP_CLUSTER = 1)
         scan_cg_en_i = 1'b1;       // Enable all clock gates for testing
 
         // CPU Control Signals
-        fetch_enable_i = 1'b1;
+        //fetch_enable_i = 1'b1;
 
         // Core ID, Cluster ID, debug mode halt address and boot address are considered more or less static
         boot_addr_i = PC_BOOT;
@@ -89,14 +89,14 @@ module coreTest;
 
         // apu-interconnect
         // handshake signals
-        // apu_gnt_i = 1'b1;
-        // apu_rvalid_i = 1'b1;
+        apu_gnt_i = 1'b1;
+        apu_rvalid_i = 1'b1;
 
         // Interrupt inputs
         irq_i = 32'b0;  // CLINT interrupts + CLINT extension interrupts
 
         // Debug Interface
-        debug_req_i = 1'b1;
+        debug_req_i = 1'b0;
 
         //instructions
         instr_gnt_i = 1'b1;     //flag para saber se o próximo estágio do pipeline aceitou o request do anterior
@@ -109,9 +109,17 @@ module coreTest;
         clk_i = 1'b1;
         rst_ni = 1'b1;
         #(CLKPERIOD)
-        #(CLKPERIOD)
-        #(CLKPERIOD)
         rst_ni = 1'b0;
+        fetch_enable_i = 1'b1;
+        #(CLKPERIOD)
+        fetch_enable_i = 1'b0;
+        #(CLKPERIOD)
+        #(CLKPERIOD)
+        #(CLKPERIOD)
+        #(CLKPERIOD)
+        #(CLKPERIOD)
+        #(CLKPERIOD)
+        rst_ni = 1'b1;
     end
 
     always #(CLKDELAY) clk_i = ~clk_i;
@@ -122,14 +130,17 @@ module coreTest;
         if(rst_ni) begin
             instr_rdata_i <= 0;
             //data_rdata_i <= 0;
-		end
+		end 
 
 		else begin
-            if(instr_rdata_i < 64) instr_rdata_i <= instr_rdata_i + 4;
-            else begin
-                instr_rdata_i <= 0;
-                $stop;
-            end
+            instr_rdata_i <= 32'b00000011111111000111110001111011;//addi
+            data_rdata_i <= 32'b00000000000000000000000000000011;
+
+            // if(instr_rdata_i < 64) instr_rdata_i <= instr_rdata_i + 4;
+            // else begin
+            //     instr_rdata_i <= 0;
+            //     $stop;
+            // end
         end
     end
 endmodule: coreTest
